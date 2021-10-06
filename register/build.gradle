@@ -1,0 +1,14 @@
+plugins {
+    id 'java'
+}
+
+group 'ru.kutuzov.confroomregister'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter:2.5.4'
+}
