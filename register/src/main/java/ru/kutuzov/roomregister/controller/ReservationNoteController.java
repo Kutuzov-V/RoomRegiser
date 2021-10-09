@@ -1,4 +1,4 @@
-package ru.kutuzov.controller;
+package ru.kutuzov.roomregister.controller;
 
 public class ReservationNoteController {
 }
