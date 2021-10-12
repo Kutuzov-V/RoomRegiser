@@ -8,6 +8,6 @@ import java.util.List;
 public interface RoomInformationService {
     public RoomDto createRoom();
     public RoomDto getRoom(Integer roomId);
-    public List<Room> getAllRooms();
-    public Room deleteRom(Integer roomId);   // скорее всего лишний функционал
+    public List<RoomDto> getAllRooms();
+    public RoomDto deleteRom(Integer roomId);   // скорее всего лишний функционал
 }
